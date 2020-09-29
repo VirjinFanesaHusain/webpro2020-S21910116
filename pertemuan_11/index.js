@@ -30,9 +30,10 @@ const operasiPenjumlahan = (bilangan1, bilangan2) => {
 */
 
 
-function yearUntilRentirement(year, firstName) => {
+const yearUntilRentirement = (year, firstName) => {
   let age = 28;
   let retirement = 65 - age;
+
   if (retirement > 0) {
     console.log( `${firstName + " retired in " + retirement + " years"}`);
   }
