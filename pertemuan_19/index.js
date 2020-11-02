@@ -45,3 +45,5 @@ displayNIM(){
 dispayNIM(){
     console.log(`Your NIM is ${this.NIM}`);
 }
+
+setter
