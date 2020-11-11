@@ -1,7 +1,30 @@
-.header-container {
-  background-color: yellow;
+body {
+  background-color: #c0ffee;
+}
+.App {
+  margin: lem;
+  font-family: "Avenir", "Arial", sans-serif;
 }
 
-.card-container {
-  background-color: yellow;
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 1em;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 0.25em solid #cacaca;
+  margin-bottom: 1em;
+}
+.list-item-image-container {
+  flex: 1;
+}
+.list-item-image-container > img {
+  height: 4em;
+}
+.list-item-power {
+  font-weight: bolder;
+  color: #ff0000;
 }
