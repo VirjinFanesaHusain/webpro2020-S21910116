@@ -41,9 +41,8 @@ const Counter = (props) => {
 
 useEffect(() => {
     console.log("Komponen telah di mount");
-
+}, []);
    
-
     const tambah = (params) => {
         setNumber(number + params);
     };
